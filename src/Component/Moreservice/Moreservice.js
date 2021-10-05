@@ -15,7 +15,7 @@ const Moreservice = (props) => {
                     <div className="card-body">
                        <h3 className="fw-bold card-text ">{name}</h3>
                        <p>{describe}</p>
-                        <button className="p-1 rounded fill  bg-warning text-white">Detailes</button>
+                        <button className="p-1 rounded bg-primary text-white">Detailes</button>
                     </div>
                 </div>
              </div>

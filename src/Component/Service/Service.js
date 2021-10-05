@@ -9,13 +9,13 @@ const Service = (props) => {
              <div>
                    <img src={img} className="card-img-top img-style  p-2 " alt=".."/>
                    </div>
-                <div className="card h-100 card-style">
+                <div className="card h-100 card-style border-0">
                     <div className="card-body">
                        <h3 className="fw-bold card-text ">{name}</h3>
                        <h3>Price:${price}
                        </h3>
                        <p className="fst-italic fw-bold">per month only</p>
-                        <button className="p-1 rounded fill fw-bold">Addmisson Now</button>
+                        <button className="p-2 rounded fill-style fst-italic">Addmisson Now</button>
                     </div>
                 </div>
              </div>

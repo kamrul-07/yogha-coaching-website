@@ -2,3 +2,18 @@
     font-size: 30px;
     color: rgb(235, 173, 16)
 }
+
+.fill-colour{
+    background-color: rgba(172, 255, 47, 0.445);
+}
+.response{
+    height: 350px;
+    width: 350px;
+}
+.blue-style{
+    background-color: rgba(56, 56, 241, 0.699);
+}
+.sizing{
+    height: 250px;
+    width: 250px;
+}

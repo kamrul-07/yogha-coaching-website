@@ -13,7 +13,7 @@ const Moreservices = () => {
     },[])
     return (
         <div>
-             <h1 className="fst-italic fs-3 fill text-center">Our more services</h1>
+             <h1 className="fst-italic fs-1 fill text-center">Our more services <i className="fas fa-diagnoses "></i></h1>
          <div  className="row row-cols-1 row-cols-md-3 g-4">
         
            {

@@ -1,7 +1,7 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee,faBahai,faLeaf} from '@fortawesome/free-solid-svg-icons'
+import {faLeaf} from '@fortawesome/free-solid-svg-icons'
 import { Container, Form, FormControl, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Header.css'
@@ -24,7 +24,7 @@ const Header = () => {
     <Navbar.Toggle aria-controls="navbarScroll " />
     <Navbar.Collapse  id="navbarScroll">
     <Nav
-        className="me-auto my-2 my-lg-0 fs-4 ms-3 bg"
+        className="me-auto my-2 my-lg-0 fs-5 ms-3 bg"
         style={{ maxHeight: '100px' }}
         navbarScroll
       >
@@ -33,6 +33,8 @@ const Header = () => {
         
         <Nav.Link  as={Link} to={"/gallary"} className=" text-white">Gallery</Nav.Link>
         <Nav.Link  as={Link} to={"/about"} className=" text-white">About Us</Nav.Link>
+        <Nav.Link  as={Link} to={"/login"} className=" text-white">Log In</Nav.Link>
+        <Nav.Link  as={Link} to={"/singup"} className=" text-white"><i className="fas fa-sign-in-alt"></i> Sign up</Nav.Link>
       </Nav>
       <Form className="d-flex">
         <FormControl
