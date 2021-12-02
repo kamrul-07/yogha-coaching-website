@@ -2,7 +2,7 @@
 
 
 ## Link 
-You can visit the site on [the link](https://gifted-beaver-623a60.netlify.app/)
+You can visit the site on [https://cocky-brattain-eb292c.netlify.app/](https://cocky-brattain-eb292c.netlify.app/)
 
 # About this site
 
